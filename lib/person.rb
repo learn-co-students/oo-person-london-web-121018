@@ -59,16 +59,8 @@ end
     def take_bath
       self.hygiene +=4
 
-      # hygiene1 = self.hygiene
-      # if hygiene1 >= 6
-      #
-      # else
-      #   hygiene1 += 4
-      #   self.hygiene(hygiene1)
-      # end
 
-      # @hygiene >10 ? nil : hygiene= += 4
-     "♪ Rub-a-dub just relaxing in the tub ♫"
+      "♪ Rub-a-dub just relaxing in the tub ♫"
 
     end
 
