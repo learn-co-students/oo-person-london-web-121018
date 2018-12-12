@@ -7,7 +7,7 @@ def initialize(name)
   @name = name
   @bank_account = 25
   @hygiene = 8
-  @happines = 8
+  @happiness = 8
 end
 
 def happiness=(number)
@@ -61,7 +61,7 @@ def work_out
 end
 
 def call_friend(friend)
-  friend.happines += 3
+  friend.happiness += 3
   self.happiness += 3
   "Hi #{friend.name}! It's #{self.name}. How are you?"
 end
